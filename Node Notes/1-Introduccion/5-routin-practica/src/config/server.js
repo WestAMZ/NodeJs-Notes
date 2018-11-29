@@ -16,7 +16,7 @@ const server =
        });
        app.listen({port,host},()=>
        {
-        console.log("Server en http:"+host+":"+port);
+        console.log("Server en http://"+host+":"+port);
        })
        
     }
